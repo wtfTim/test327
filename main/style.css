@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@500;600;700&display=swap');
+
+:root {
+    --Green-90: #EEF8D3;
+    --Dark-Green-15: #1A3129;
+    --Green-70: #CBEA7B;
+    --Green-97: #FAFDF2;
+    --Grey-15: #262626;
+    --Grey-20: #333;
+    --Green-95: #F6FBE9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: none;
+}
+
+body {
+    background: var(--Green-97, #FAFDF2);
+}
+
+.container {
+    max-width: 1596px;
+    margin: 0 auto;
+}
+
+/* header */
+
+#header {
+    border-bottom: 1px solid var(--Green-90);
+    background: var(--Dark-Green-15);
+}
+
+.header__box {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+
+.header__nav a {
+    color: var(--Green-97);
+    font-family: Urbanist;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.header__nav a:hover {
+    color: var(--Green-70, #CBEA7B);
+}
+
+.header__nav a:nth-child(1) {
+    color: var(--Green-70, #CBEA7B);
+}
+
+/* header */
+
+/* testimonials */
+#testimonials {
+    margin-top: 200px;
+}
+
+.testimonials__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonials__header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title {
+    color: var(--Grey-15);
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.subtitle {
+    color: var(--Grey-20);
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.testimonials__bottom {
+    margin-top: 80px;
+    border-radius: 12px;
+    border: 1px solid var(--Green-90, #EEF8D3);
+    background: var(--Green-97, #FAFDF2);
+}
+
+.testimonials__card {
+    display: flex;
+    padding: 30px 40px;
+    align-items: center;
+    align-self: stretch;
+    background: var(--Green-95, #F6FBE9);
+}
+
+.testimonials__item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.sub {
+    color: var(--Grey-20);
+    font-family: Urbanist;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    padding: 40px;
+}
+
+.testimonials__dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.testimonials__box-btn {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.testimonials__btn {
+    display: flex;
+    padding: 12px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid var(--Green-90, #EEF8D3);
+    background: var(--Green-95, #F6FBE9);
+}
+
+.dots {
+    display: flex;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    background: var(--Green-85, #E5F5BD);
+    border-radius: 50%;
+}
+
+.dot:hover {
+    background: var(--Dark-Green-30, #356554);
+}
+
+.dot:nth-child(1) {
+    background: var(--Dark-Green-30, #356554);
+}
+
+/* testimonials */
